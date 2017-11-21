@@ -16,6 +16,7 @@ public class Main {
             System.out.println("2.List # 1");
             System.out.println("3.List # 2");
             System.out.println("4.List # 3");
+            System.out.println("___________________");
 
             menuSelection = sc.nextInt();
 
@@ -36,6 +37,12 @@ public class Main {
                     break;
 
                 case 2:
+                    System.out.println("___List # 1___");
+                    System.out.println("Имя: " + humanName);
+                    System.out.println("Город: " + humanCity);
+                    System.out.println("Возраст: " + humanAge);
+                    System.out.println("Хобби: " + humanHobby);
+                    System.out.println("___________________");
                     break;
 
                 case 3:
