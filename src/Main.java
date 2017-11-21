@@ -53,6 +53,10 @@ public class Main {
                     break;
 
                 case 4:
+                    System.out.println(humanName + " - имя");
+                    System.out.println(humanCity + " - город");
+                    System.out.println(humanAge + " - возраст");
+                    System.out.println(humanHobby + " - хобби");
                     break;
             }
         }
