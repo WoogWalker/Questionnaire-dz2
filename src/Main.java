@@ -46,6 +46,10 @@ public class Main {
                     break;
 
                 case 3:
+                    System.out.println("___List # 2___");
+                    System.out.println("человек по имени " + humanName + ", живет в городе " + humanCity + ".");
+                    System.out.println("Этому человеку " + humanAge + " лет и его хобби " + humanHobby);
+                    System.out.println("___________________");
                     break;
 
                 case 4:
