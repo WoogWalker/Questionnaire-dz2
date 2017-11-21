@@ -16,9 +16,23 @@ public class Main {
             System.out.println("2.List # 1");
             System.out.println("3.List # 2");
             System.out.println("4.List # 3");
+
             menuSelection = sc.nextInt();
+
             switch (menuSelection){
                 case 1:
+                    System.out.println("___Add human___");
+                    System.out.println("enter human name ..");
+                    humanName = sc.next();
+
+                    System.out.println("enter city of residence ..");
+                    humanCity = sc.next();
+
+                    System.out.println("enter human age .. ");
+                    humanAge = sc.nextInt();
+
+                    System.out.println("enter human hobby ..");
+                    humanHobby = sc.next();
                     break;
 
                 case 2:
