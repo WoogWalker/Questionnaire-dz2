@@ -16,6 +16,7 @@ public class Main {
             System.out.println("2.List # 1");
             System.out.println("3.List # 2");
             System.out.println("4.List # 3");
+            System.out.println("9. EXIT");
             System.out.println("___________________");
 
             menuSelection = sc.nextInt();
@@ -57,6 +58,15 @@ public class Main {
                     System.out.println(humanCity + " - город");
                     System.out.println(humanAge + " - возраст");
                     System.out.println(humanHobby + " - хобби");
+                    break;
+
+                case 9:
+                    System.out.println("___EXIT___");
+                    mainMenu = false;
+                    break;
+
+                default:
+                    System.out.println("Не правильно, попробуй еще раз ..");
                     break;
             }
         }
